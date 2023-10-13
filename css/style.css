@@ -39,19 +39,14 @@ h3{
 
 /*UTILITIES*/
 
-.container{
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+    width: 100%;
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
-}
-
-.container > * {
-    width: 100%;
+    display: flex;
+    flex-direction: column; /* Cambiado a dirección de columna en dispositivos móviles */
+    align-items: center; /* Alineación vertical y horizontal */
 }
 
 .flex-column{
@@ -77,7 +72,6 @@ h3{
 }
 
 /*BUTTONS*/
-
 .btn{
     font-size: 1.8rem;
     padding: 1rem 0;
@@ -122,4 +116,16 @@ input{
 
 input::placeholder{
     color: #aaa;
+}  
+
+@media (max-width: 768px) {
+    /* Estilos específicos para pantallas con un ancho máximo de 768px (dispositivos móviles) */
+    .container {
+        padding: 1rem; /* Ajusta el relleno para ahorrar espacio en dispositivos móviles */
+    }
 }
+
+
+
+
+
