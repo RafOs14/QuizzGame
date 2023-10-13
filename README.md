@@ -14,4 +14,6 @@ Lista de tecnologías y recursos utilizados en el proyecto:
 :end: Proyecto finalizado :end:
 </h4>
 
+<h4 align="center">
 https://appquizzgame.netlify.app/
+</h4>
