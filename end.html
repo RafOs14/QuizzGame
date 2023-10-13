@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz End</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalscore"></h1>
+            <form>
+                <input type="text" name="username" id="username" placeholder="Ingresa tu nombre">
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighSccore(event);"
+                    disabled>Guardar</button>
+            </form>
+            <a href="./game.html" class="btn">Jugar de nuevo</a>
+            <a href="./index.html" class="btn">Inicio</a>
+        </div>
+    </div>
+    <script src="./js/end.js"></script>
+</body>
+
+</html>
