@@ -1,7 +1,6 @@
 <h1 align="center"> # Quizz Game </h1>
 
-
-![Logo sitio Open Trivia DB](https://github.com/RafOs14/pokedex/assets/81370636/77b59576-47cb-4380-aae5-ce6c3d599b13)
+![Screenshot_1](https://github.com/RafOs14/QuizzGame/assets/81370636/9ba1f5f5-6f2d-472d-9deb-d419b4d5cd99)
 
 ## Tecnologías usadas
 ***
